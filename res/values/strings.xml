@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Health Anywhere</string>
+    <string name="str_saudacao">Bem vindo ao Health Anywhere!</string>
+    <string name="menu_settings">Settings</string>
+
+</resources>
