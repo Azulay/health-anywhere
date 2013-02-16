@@ -3,6 +3,7 @@ package info.diegoramos.healtheverything.model;
 public class Programa {
 	private Long id_programa;
 	private String nome;
+	private String objetivo;
 	
 	
 	/* 
@@ -32,6 +33,15 @@ public class Programa {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+
+	public String getObjetivo() {
+		return objetivo;
+	}
+
+	public void setObjetivo(String objetivo) {
+		this.objetivo = objetivo;
+	}
+	
 	
 	
 }
