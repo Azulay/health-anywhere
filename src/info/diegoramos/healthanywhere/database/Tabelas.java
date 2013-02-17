@@ -3,7 +3,10 @@ package info.diegoramos.healthanywhere.database;
 public class Tabelas {
 
 	//Tabela cad_serie
-	
+	private static final String TBL_cad_serie = "cad_serie";
+		//CAMPOS cad_serie
+		private static final String FIELD_id_serie = "_id_serie INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT";
+		private static final String FIELD_nome_serie = "nome CHAR(100) NOT NULL CONSTRAINT [nome_serie] UNIQUE";
 	
 	//Tabela cad_programa
 	private static final String TBL_cad_programa = "cad_programa";
